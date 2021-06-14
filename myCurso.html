@@ -1,0 +1,231 @@
+﻿<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Deeply - Desarrollo de software a la medida, Consultoria y Formación empresarial.</title>
+    <meta content="" name="Deeply - Desarrollo de software a la medida, Consultoria y Formación empresarial.">
+    <meta content="" name="Deeply - Software developer, Ux designer, Ui designer, DBA, Proyect manager">
+     <meta property="og:title" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+    <meta property="og:site_name" content="">
+    <meta property="og:description" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="">
+    <meta name="twitter:title" content="">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="">
+    <link href="favicon.ico" rel="icon">
+    <link rel="apple-touch-icon" tamaños="57x57" href="apple-icon-57x57.png">
+    <link rel="apple-touch-icon" tamaños="60x60" href="apple -icon-60x60.png ">
+    <link rel="apple-touch-icon" tamaños="72x72" href="apple-icon-72x72.png" >
+    <link rel="apple-touch-icon" tamaños="76x76" href="icono-apple-76x76.png">
+    <link rel="apple-touch-icon" tamaños="114x114" href="apple-icon-114x114.png ">
+    <link rel="apple-touch-icon" tamaños="120x120" href="apple-icon-120x120.png">
+    <link rel="apple-touch-icon" tamaños="144x144" href="apple-icon-144x144.png ">
+    <link rel="apple-touch-icon" tamaños="152x152 "href="apple-icon-152x152.png" >
+    <link rel="tamaños de apple-touch-icon"="180x180" href="icono-apple-180x180.png">
+    <enlace rel="icono" tipo="imagen / png" tamaños="192x192" href="android-icon-192x192.png">
+    <link rel="icon" type="image/png" tamaños="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" tamaños="96x96" href="favicon-96x96.png">
+    <link rel="icon" type="image/png" tamaños="16x16" href="favicon-16x16.png">
+    <link rel="manifiesto" href="/manifest.json">
+    <meta nombre="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+
+        <link href="assets/img/apple-icon.png" rel="apple-icon">
+        <link href="assets/img/apple-icon.png" rel="apple-icon">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+        <link href="assets/plugin/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="assets/font/icofont/icofont.min.css" rel="stylesheet" />
+        <link href="assets/plugin/animate-css/animate.min.css" rel="stylesheet" />
+        <link href="assets/font/font-awesome/css/font-awesome.css" rel="stylesheet" />
+        <link href="assets/plugin/aos/aos.css" rel="stylesheet" />
+        <link href="assets/css/style.css" rel="stylesheet" />
+        <link href="assets/plugin/slider/immersive-slider.css" rel="stylesheet" />
+        <link href="assets/plugin/sweet-alert/sweet-alert.min.css" rel="stylesheet" />
+</head>
+<body>
+
+    <header id="header">
+        <div class="container d-flex align-items-center">
+
+            <a href="index.html" class="logo mr-auto">
+                <img src="assets/img/logo_Blanco_150.png" alt="">
+            </a>
+
+            <nav class="nav-menu d-none d-lg-block">
+                <ul>
+                    <li class="active"><a href="index.html">Inicio</a></li>
+                    <li><a href="#conocenos">Conócenos</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#Herramientas">Herramientas</a></li>
+                    <li><a href="#Slider">Proyectos</a></li>
+                    <li><a href="#team">Colaboradores</a></li>
+                      <li><a href="#contact">Contáctanos</a></li>
+                </ul>
+            </nav>
+            <!-- .nav-menu -->
+
+        </div>
+    </header>
+
+    <section id="contact" class="contact">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="section-title">
+                        <span>Inscríbete</span>
+                        <h2>Inscríbete</h2>
+                        
+                        <h5 class="=text-center col-12"><small>Curso de desarrollo de aplicaciones web online <b> gratuito. </b>  </small> </h5>
+                    </div>
+     
+                </div>
+           
+            </div>
+            
+
+            <div class="row">
+                <div class="col-lg-6">
+
+
+                    <img src="assets/img/marketing.jpg" class="img-fluid" />
+
+                </div>
+                <div class="col-lg-6 php-email-form" id="app">
+                 
+                        <div class="form-group">
+                            <input class="form-control" id="txbNombre" type="text" v-model="from_name" placeholder="Nombre" />
+
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" name="email" id="email" v-model="from_email" placeholder="Correo electrónico" />
+
+                        </div>
+             
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Teléfono (Escribe tu número a 10 digitos)" v-model="subject" />
+
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="message" id="txbMensaje" placeholder="Escribe el nombre de tu Universidad" v-model="message" />
+                        <div class="validate"></div>
+                    </div>
+
+
+             
+                    <div class="text-center"><button @click="enviar">Inscribirme</button></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="container">
+            <h3>   "Hágase el código"</h3>
+            <br />
+           <h5 class="text-white"><small> (Código limpio - Robert C. Martin, 2009, p.29  )</small>  </h5><br /><br />
+            <div class="social-links">
+                <a target="_blank" href="https://twitter.com/deeplyminded01" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a target="_blank" href="https://www.facebook.com/deeplyminded" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+               
+            </div>
+
+        </div>
+    </footer>
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+    <script src="assets/plugin/jquery/jquery.min.js"></script>
+    <script src="assets/plugin/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/plugin/jquery.easing/jquery.easing.min.js"></script>
+    <script src="assets/plugin/jquery-sticky/jquery.sticky.js"></script>
+    <script src="assets/plugin/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/plugin/owl.carousel/owl.carousel.min.js"></script>
+    <script src="assets/plugin/venobox/venobox.min.js"></script>
+    <script src="assets/plugin/typed.js/typed.min.js"></script>
+    <script src="assets/plugin/aos/aos.js"></script>
+    <script src="assets/plugin/wow/wow.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/plugin/sweet-alert/sweet-alert.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.16/vue.min.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js" type="text/javascript"></script>
+    <script>
+            (function(){
+                emailjs.init("user_ulgTAoEi8esQMjAw7Alg1");
+             })();
+            const vue = new Vue({
+                el: '#app',
+                data(){
+                    return {
+                        from_name: '',
+                        from_email: '',
+                        message: '',
+                        subject: '',
+                    }
+                },
+                methods: {
+                    enviar() {
+
+                        var nombre = document.getElementById("txbNombre").value;
+                        var correo = document.getElementById("email").value;
+                       var mensaje = document.getElementById("txbMensaje").value;
+
+                        if (nombre.length == 0) {
+                            swal("Upss!", "el nombre es  requerido!", "warning")
+                        }
+                        else {
+                            if (correo.length == 0) {
+
+                                swal("Upss!", "el correo electrónico es  requerido!", "warning")
+                            }
+                            else {
+                                if (mensaje.length == 0) {
+                                    swal("Upss!", "El nombre de tu Universidad es requerido!", "warning")
+                                }
+                                else {
+                                    let data = {
+                                        from_name: this.from_name,
+                                        from_email: this.from_email,
+                                        message: this.message,
+                                        subject: this.subject,
+                                    };
+                                    emailjs.send("6481251085", "template_hwp213r", data)
+                                    .then(function (response) {
+                                        if (response.text === 'OK') {
+                                            document.getElementById("txbNombre").value="";
+                                            document.getElementById("email").value="";
+                                            document.getElementById("txbMensaje").value = "";
+                                            document.getElementById("subject").value = "";
+                                            swal("Bien!", "Felicidades, tu inscripción fue aceptada, te enviaremos información a tu correo y teléfono explicandote la mecanica del curso y tus datos de acceso, buena suerte !", "success")
+                                        }
+                                        console.log("SUCCESS. status=%d, text=%s", response.status, response.text);
+                                    }, function (err) {
+                                        swal("Upss!", "Ocurrió un problema al enviar los datos!", "danger")
+                                        console.log("FAILED. error=", err);
+                                    });
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+    </script>
+    <script>
+              new WOW().init();
+    </script>
+    <script src="assets/plugin/slider/jquery.immersive-slider.js"></script>
+    <script type="text/javascript">
+  	  $(document).ready( function() {
+  	    $("#immersive_slider").immersive_slider({
+  	        container: ".main",
+  	        autoStart: 15000
+  	    });
+  	  });
+
+    </script>
+</body>
+</html>
+
