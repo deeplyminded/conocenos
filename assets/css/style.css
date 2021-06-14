@@ -661,6 +661,101 @@ section {
    text-align:left;
 }
 
+ /*Curso*/
+
+
+ #myCurso{
+      background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(26, 26, 26, 0.1)), url("../img/servicios-bg3.png") fixed center center;
+  padding: 80px 0 60px 0;
+}
+#myCurso .icon-box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+  border: 1px solid #fff;
+}
+
+#myCurso .icon {
+  margin: 0 auto 20px auto;
+  padding-top: 17px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  width: 72px;
+  height: 72px;
+  background: #fff4df;
+}
+
+#myCurso .icon i {
+  font-size: 36px;
+  line-height: 1;
+  color: #da9429;
+}
+
+#myCurso .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+#myCurso .title a {
+  color: #111;
+  transition: 0.3s;
+}
+
+#myCurso .description {
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
+#myCurso .icon-box:hover {
+  border-color: #da9429;
+}
+
+#myCurso .icon-box:hover .title a {
+  color: #da9429;
+}
+#myCurso .btnGold{
+  background: #da9429;
+  color:white;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+#myCurso  ul {
+ text-align:left;
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+#myCurso  .texto {
+  font-size: 13px;
+  font-weight:400;
+   text-align:left;
+}
+
+#myCurso  ul li {
+  padding-bottom: 5px;
+   text-align:left;
+}
+
+#myCurso  ul i {
+  font-size: 20px;
+  padding-right: 2px;
+  color: #ffb727;
+   text-align:left;
+}
+
+
+
+
+
+
 
 
 
